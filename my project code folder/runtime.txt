@@ -1,0 +1,5 @@
+python3.8.8
+
+if tweepy is not working for scraping then need to create the developer
+account in the https://developer.twitter.com/en/portal/dashboard with
+your twiiter account

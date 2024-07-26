@@ -1,0 +1,35 @@
+Notebook
+----------
+1. Importing the packages
+2. Exploring the dataset - Cryptocurrency (Bitcoin) Data 
+3. Data processing & Data Cleaning
+	- Using Keras MinMaxScaler
+4. Visualization using seaborn & matplotlib
+5. Splitting the data to train and test
+6. Building the model
+    - LSTM
+    - LSTM + CPD
+    - Lasso Regression
+    - Ridge Regression
+    - XGBooster Regression
+    - Voting Regression - (DT + RF + SVR)
+    - MLP
+    - RNN
+    - CNN
+    - Attention + CPD + LSTM
+   7. Training the model
+8. Building the model with LR gives better accuracy comparing with Other Models
+Flask Framework
+----------------
+9. Flask Framework with Sqlite for signup and signin
+10. Importing the packages
+11. User gives input as Symbol of cryptocurrency
+12. The given input is preprocessed and the data regarding crypto is scraped based yahoo finance 
+13. Then based on the input crypto the tweets are scraped  using tweepy
+14. With all this information, the define LR, LSTM model and ARIMA is used for prediction
+15. Final outcome is displayed through frontend
+Extension
+----------- 
+In the base paper, the author mentioned to use Attention + CPD + LSTM, LSTM, LSTM + CPD for analysis Bitcoin data, in which we got MSE 0.3462 
+As an extension we have applied CNN,RNN,MLP, Linear Regression, Lasso, Ridge, XGBoost and Voting Regression, in which we got Linear Regression 98.8% with 0.12 MSE Values
+So Linear Regression, LSTM and ARIMA Model is used for dumping the model to predicting the result, Recommending and Forecast the Bitcoin Price.
